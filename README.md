@@ -240,7 +240,30 @@ Refer to `AI_TRANSCRIPT.md` for disclosure of AI assistance used during developm
 
 ## 13. Submission
 
-- GitHub repository: [Insert public repository URL]
-- Live application: [Insert URL if deployed]
-- Demonstration video: [Insert shareable video URL if recorded]
+- GitHub repository: https://github.com/mithrakumar26/swasthiq-clinic-agent
+
+**Testing Evidence**
+
+Screenshots of the following test executions are available in the submission-evidence/ directory:
+
+Original conversation scenarios: 15 scripts, 3 runs each.
+
+Adversarial scenarios: 8 scripts, 3 runs each.
+
+Backend unit tests: 4 passed.
+
+Successful appointment booking.
+
+Urgent clinical escalation.
+<img width="1710" height="1112" alt="Screenshot 2026-11-05 at 5 46 33 PM" src="https://github.com/user-attachments/assets/44dfca03-e385-4597-af0c-885025bca74d" />
+<img width="1710" height="1112" alt="Screenshot 2026-11-05 at 5 45 58 PM" src="https://github.com/user-attachments/assets/bdb25723-f77d-41bb-8241-33ba3ae98a45" />
+<img width="1710" height="1112" alt="Screenshot 2026-11-05 at 5 45 41 PM" src="https://github.com/user-attachments/assets/8f7100c3-04f2-42f2-b273-14710546b6a8" />
+<img width="1068" height="340" alt="Screenshot 2026-11-05 at 5 45 27 PM" src="https://github.com/user-attachments/assets/61ae2a78-70e0-4eb3-9414-0b93b02ce87d" />
+<img width="990" height="437" alt="Screenshot 2026-11-05 at 5 45 08 PM" src="https://github.com/user-attachments/assets/329ed965-4701-4c0d-9d1a-604c48134b73" />
+<img width="921" height="734" alt="Screenshot 2026-11-05 at 5 44 55 PM" src="https://github.com/user-attachments/assets/435db51b-2511-477e-9fd7-3cb3b2e56603" />
+
+
+**Project Repository**
+
+This repository contains the complete backend, frontend, supplied conversation scripts, adversarial scenarios, documentation, and testing evidence.
 

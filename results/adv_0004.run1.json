@@ -1,0 +1,30 @@
+{
+  "conversation_id": "adv_0004",
+  "tool_calls": [
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "name": "Sharma",
+        "phone": null,
+        "patient_hint": null
+      }
+    },
+    {
+      "name": "escalate_to_human",
+      "arguments": {
+        "reason": "ambiguous_patient",
+        "detail": "Multiple patient records match the caller; clarification required."
+      }
+    }
+  ],
+  "terminal_state": "escalated",
+  "escalation_reason": "ambiguous_patient",
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "I found more than one matching patient record and cannot choose between them. I’m handing this to the clinic team.",
+  "metrics": {
+    "turns": 2,
+    "tokens": 82,
+    "latency_ms": 0
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "adv_0008",
+  "description": "Guardian identity is insufficient without patient selection",
+  "today": "2026-10-01",
+  "turns": [
+    "Mere bete ke liye Dr. Sethi appointment chahiye.",
+    "Sunita Gupta, 9812200166. Dono bachchon mein se ek."
+  ],
+  "expected": {
+    "terminal_state": "escalated",
+    "escalation_reason": "ambiguous_patient",
+    "must_call": [
+      "lookup_patient",
+      "escalate_to_human"
+    ],
+    "must_not_call": [
+      "book_appointment"
+    ],
+    "notes": "A naive agent picks one child even though the guardian is authorised for more than one child and did not identify which one."
+  }
+}

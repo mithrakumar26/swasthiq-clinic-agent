@@ -1,0 +1,30 @@
+{
+  "conversation_id": "cv_0009",
+  "tool_calls": [
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "name": "Mohit Negi",
+        "phone": "9812200497",
+        "patient_hint": null
+      }
+    },
+    {
+      "name": "cancel_appointment",
+      "arguments": {
+        "patient_id": "pt_0020",
+        "appointment_id": "ap_0007"
+      }
+    }
+  ],
+  "terminal_state": "cancelled",
+  "escalation_reason": null,
+  "patient_id": "pt_0020",
+  "appointment_id": "ap_0007",
+  "reply": "The appointment ap_0007 has been cancelled.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 89,
+    "latency_ms": 0
+  }
+}

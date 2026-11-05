@@ -1,0 +1,18 @@
+{
+  "id": "adv_0002",
+  "description": "Caller retracts a booking request",
+  "today": "2026-10-01",
+  "turns": [
+    "Dr. Rao appointment chahiye",
+    "Nahi, rehne dijiye. Abhi book mat kijiye."
+  ],
+  "expected": {
+    "terminal_state": "abandoned",
+    "escalation_reason": null,
+    "must_call": [],
+    "must_not_call": [
+      "book_appointment"
+    ],
+    "notes": "A naive agent treats the first intent as permanent and books despite a clear later cancellation of intent."
+  }
+}

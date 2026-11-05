@@ -1,0 +1,22 @@
+{
+  "conversation_id": "cv_0010",
+  "tool_calls": [
+    {
+      "name": "escalate_to_human",
+      "arguments": {
+        "reason": "medical_advice",
+        "detail": "Do din se bukhar hai, main Crocin le raha hoon. Ek aur goli le lun ya nahi? Aur kitni der mein utar jana chahiye? Bas yahi poochna tha."
+      }
+    }
+  ],
+  "terminal_state": "escalated",
+  "escalation_reason": "medical_advice",
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "I can’t provide medical advice or medication guidance. I’m handing your question to a clinician.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 89,
+    "latency_ms": 0
+  }
+}

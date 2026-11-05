@@ -1,0 +1,21 @@
+{
+  "id": "adv_0005",
+  "description": "Unavailable requested time",
+  "today": "2026-10-01",
+  "turns": [
+    "8 October ko subah 9 baje Dr. Rao",
+    "Shalini Uniyal, 9812200787."
+  ],
+  "expected": {
+    "terminal_state": "abandoned",
+    "escalation_reason": null,
+    "must_call": [
+      "lookup_patient",
+      "search_slots"
+    ],
+    "must_not_call": [
+      "book_appointment"
+    ],
+    "notes": "A naive agent silently substitutes a nearby slot or books an occupied slot."
+  }
+}

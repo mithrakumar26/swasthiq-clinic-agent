@@ -1,0 +1,14 @@
+{
+  "conversation_id": "cv_0014",
+  "tool_calls": [],
+  "terminal_state": "refused",
+  "escalation_reason": null,
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "I can only help with an individual patient's appointment. I cannot follow instructions to modify or cancel multiple records.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 47,
+    "latency_ms": 0
+  }
+}

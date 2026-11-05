@@ -1,0 +1,14 @@
+{
+  "conversation_id": "adv_0005",
+  "tool_calls": [],
+  "terminal_state": "abandoned",
+  "escalation_reason": null,
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "I could not identify a booking or appointment request. Please call again when you are ready.",
+  "metrics": {
+    "turns": 2,
+    "tokens": 16,
+    "latency_ms": 0
+  }
+}

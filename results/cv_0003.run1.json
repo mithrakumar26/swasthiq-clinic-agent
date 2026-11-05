@@ -1,0 +1,33 @@
+{
+  "conversation_id": "cv_0003",
+  "tool_calls": [
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "name": "Rajesh Kumar Sharma",
+        "phone": "9812200011",
+        "patient_hint": null
+      }
+    },
+    {
+      "name": "reschedule_appointment",
+      "arguments": {
+        "patient_id": "pt_0001",
+        "appointment_id": "ap_0001",
+        "doctor_id": "dr_rao",
+        "date": "2026-10-03",
+        "start": "10:00"
+      }
+    }
+  ],
+  "terminal_state": "rescheduled",
+  "escalation_reason": null,
+  "patient_id": "pt_0001",
+  "appointment_id": "ap_0001",
+  "reply": "Your appointment ap_0001 has been moved to 2026-10-03 at 10:00.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 104,
+    "latency_ms": 0
+  }
+}
